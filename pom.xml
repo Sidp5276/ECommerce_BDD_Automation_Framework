@@ -6,9 +6,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.bank</groupId>
-    <artifactId>banking-bdd-framework</artifactId>
+    <artifactId>ECommerce-BDD-Automation-Framework</artifactId>
     <version>1.0.0</version>
-    <name>Banking BDD Automation Framework</name>
+    <name>ECommerce BDD Automation Framework</name>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
