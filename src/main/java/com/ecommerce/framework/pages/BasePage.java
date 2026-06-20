@@ -1,6 +1,6 @@
-package com.bank.framework.pages;
+package com.ecommerce.framework.pages;
 
-import com.bank.framework.driver.DriverFactory;
+import com.ecommerce.framework.driver.DriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -32,5 +32,21 @@ public class BasePage {
 
     protected String getText(org.openqa.selenium.WebElement element) {
         return wait.until(ExpectedConditions.visibilityOf(element)).getText();
+    }
+
+    protected org.openqa.selenium.WebElement find(org.openqa.selenium.By by) {
+        return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    protected java.util.List<org.openqa.selenium.WebElement> findAll(org.openqa.selenium.By by) {
+        return driver.findElements(by);
+    }
+
+    protected boolean isVisible(org.openqa.selenium.WebElement element) {
+        try {
+            return wait.until(ExpectedConditions.visibilityOf(element)) != null;
+        } catch (Exception e) {
+            return false;
+        }
     }
 }
