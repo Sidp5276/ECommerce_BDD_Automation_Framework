@@ -1,4 +1,4 @@
-package com.bank.framework.driver;
+package com.ecommerce.framework.driver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
