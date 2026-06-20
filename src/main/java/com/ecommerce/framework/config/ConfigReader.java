@@ -1,4 +1,4 @@
-package com.bank.framework.config;
+package com.ecommerce.framework.config;
 
 import java.io.IOException;
 import java.io.InputStream;
