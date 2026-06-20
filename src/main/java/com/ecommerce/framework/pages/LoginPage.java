@@ -1,4 +1,4 @@
-package com.bank.framework.pages;
+package com.ecommerce.framework.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,16 +8,16 @@ import org.openqa.selenium.support.FindBy;
  */
 public class LoginPage extends BasePage {
 
-    @FindBy(id = "username")
+    @FindBy(id = "user-name")
     private WebElement usernameInput;
 
     @FindBy(id = "password")
     private WebElement passwordInput;
 
-    @FindBy(id = "loginBtn")
+    @FindBy(id = "login-button")
     private WebElement loginButton;
 
-    @FindBy(id = "error")
+    @FindBy(css = "div.error-message-container")
     private WebElement errorMessage;
 
     public void enterUsername(String username) {
