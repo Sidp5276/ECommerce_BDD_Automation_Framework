@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="ECommerce BDD Suite"
-       parallel="tests"
-       thread-count="4">
+       parallel="false"
+       thread-count="1">
 
     <test name="Cucumber Features">
         <classes>
