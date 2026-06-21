@@ -9,5 +9,4 @@
             <class name="com.ecommerce.framework.runners.TestRunner"/>
         </classes>
     </test>
-
 </suite>
