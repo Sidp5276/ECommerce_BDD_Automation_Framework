@@ -202,7 +202,6 @@ This project demonstrates:
 
 ---
 
-
 **SDET Automation Framework Project**
 
 Built for demonstrating industry-standard automation framework design, maintainability, scalability, and interview-ready Selenium automation practices.
